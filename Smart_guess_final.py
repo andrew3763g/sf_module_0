@@ -48,7 +48,7 @@ def score_game(game_core):
     count_ls = []
     random.seed(1)
     #  фиксируем RANDOM SEED, чтобы ваш эксперимент был воспроизводим!
-    random_array = [random.randint(1, 100) for i in range(11)]
+    random_array = [random.randint(1, 100) for i in range(1001)]
     for number in random_array:
         count = 0
         #   print(f"Загадано число {number}")
